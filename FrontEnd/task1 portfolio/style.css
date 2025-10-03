@@ -1,0 +1,138 @@
+@font-face {
+    font-family: hor;
+    src: url("./bloodcrow.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 200px;
+    background-color: black;
+    font-family: hor;
+    color: red;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+
+.sub-hero {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about>h2 {
+    font-family: hor;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.about>p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(236, 150, 21);
+}
+
+.education {
+    margin-top: 40px;
+    background-color: rgb(170, 240, 223);
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 20px;
+    height: 220px;
+    text-transform: uppercase;
+}
+
+.education>h2 {
+    font-family: hor;
+    font-weight: 900;
+    color: rgb(242, 128, 204);
+    font-size: 60px;
+    padding: 10px;
+}
+
+.edu>h2 {
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    background-color: #fff;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+    color: rgb(145, 61, 16);
+}
+
+.skills {
+    background-color: blanchedalmond;
+    height: 340px;
+}
+
+.skills>h2 {
+    color: red;
+}
+
+.sub-skill>h2 {
+    color: rgb(89, 57, 124);
+}
+
+.projects {
+    height: 340px;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+
+.contact {
+    background-color: rgb(180, 241, 192);
+    height: 340px;
+    text-transform: lowercase;
+}
+
+.contact>h2 {
+    color: rebeccapurple;
+    font-weight: 100;
+}
+
+a {
+    background-color: rgba(13, 15, 13, 0.763);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.604);
+    height: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer>h2 {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 20px;
+}

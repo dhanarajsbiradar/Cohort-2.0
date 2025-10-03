@@ -1,0 +1,50 @@
+@font-face {
+    font-family: horror;
+    src: url(bloodcrow.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images8.alphacoders.com/101/1013802.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 400;
+    color: #e4bdb7;
+    font-family: horror;
+}
+
+span {
+    color: rgb(189, 83, 83);
+}
+
+#love {
+    color: #979490;
+}
+
+h2 {
+    font-family: horror;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 5px 0;
+    width: 450px;
+    margin: 10px;
+    margin-left: 100px;
+    color: #5b564d;
+}
