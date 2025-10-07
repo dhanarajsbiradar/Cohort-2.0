@@ -1,0 +1,362 @@
+@font-face {
+    font-family: dribbble;
+    src: url(./Mona-Sans-870dff5a10221ba7d01cc47eca10d0b2f911bd4196bb941985490bd8c7363cd9.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: dribbble, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav h4 {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav h4:hover {
+    color: rgb(106, 106, 105);
+}
+
+.nav .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 10%;
+}
+
+.check p {
+    cursor: pointer;
+}
+
+.nav p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav p:hover {
+    color: rgb(106, 106, 105);
+}
+
+.nav .login {
+    margin-right: 20px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login #login {
+    padding: 15px 20px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: rgb(41, 40, 40);
+}
+
+.login #signup {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 15px 20px;
+    border: none;
+    background-color: transparent;
+    transition: all ease 0.3s;
+    color: black;
+    border-radius: 30px;
+}
+
+#signup:hover {
+    color: rgb(123, 123, 123);
+}
+
+.container {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sub-container {
+    width: 50%;
+    height: 500px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: flex-start;
+    flex-direction: column;
+}
+
+.sub-container h2 {
+    font-size: 50px;
+}
+
+.sub-container p {
+    margin-top: 15px;
+}
+
+.sub-buttons i {
+    font-size: 18px;
+}
+
+.sub-buttons button {
+    font-weight: 500;
+    background-color: transparent;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sub-buttons button:hover {
+    background-color: rgb(241, 239, 239);
+}
+
+.sub-buttons #sub-buttons-one {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    transition: all ease 0.2s;
+}
+
+.sub-buttons #sub-buttons-one:hover {
+    background-color: #686767;
+}
+
+.search {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(241, 239, 239);
+    border-radius: 30px;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: border-color 0.25s ease, box-shadow 0.2s ease;
+}
+
+.search:hover,
+.search:focus-within {
+    border-color: #f2c8d3;
+    box-shadow: 10 10px 12px rgba(237, 109, 143, 0.12);
+}
+
+.search input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 56px 0 16px;
+    background-color: transparent;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search button {
+    position: absolute;
+    right: 8px;
+    background-color: #f689a6;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.popular h5 {
+    display: inline-block;
+    padding: 2px 4px;
+}
+
+.popular button {
+    padding: 10px 20px;
+    font-size: 12px;
+    border: 0.5px solid rgb(231, 228, 228);
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 2px;
+    transition: all ease 0.2s;
+}
+
+.popular button:hover {
+    background-color: rgb(241, 239, 239);
+}
+
+.container .image {
+    height: 100%;
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.3s;
+}
+
+.image img:hover {
+    transform: translate(10%, 10%);
+}
+
+.menu {
+    height: 45px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.menu #first {
+    border: 1px solid rgb(237, 235, 235);
+    border-radius: 20px;
+}
+
+.menu #first i {
+    margin-left: 10px;
+}
+
+.menu #last i {
+    margin-right: 5px;
+}
+
+.menu #last {
+    border: 1px solid rgb(237, 235, 235);
+}
+
+.sub-menu #active {
+    background-color: #f1efef;
+}
+
+.cards {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(216, 205, 205);
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cars {
+    padding: 10px;
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.card {
+    height: 450px;
+    width: 335px;
+    box-shadow: 5px 5px 20px rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+card h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.bottom {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(transparent, black);
+}
+
+.bottom button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.bottom h3 {
+    color: white;
+}
+
+.card:hover .bottom {
+    bottom: 0;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    color: rgb(184, 182, 182);
+    background-color: rgb(65, 64, 64);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.rules {
+    display: flex;
+    gap: 20px;
+}
