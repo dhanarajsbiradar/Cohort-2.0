@@ -3,6 +3,11 @@
     src: url(./Mona-Sans-870dff5a10221ba7d01cc47eca10d0b2f911bd4196bb941985490bd8c7363cd9.woff2);
 }
 
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-display_regular.woff2);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -121,7 +126,10 @@ body {
 }
 
 .sub-container h2 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family: apple;
+    color: rgb(134, 134, 134);
+    font-family: 700;
 }
 
 .sub-container p {
